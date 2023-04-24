@@ -1,4 +1,0 @@
-#Mon Apr 17 14:02:00 BRT 2023
-base.0=F\:\\TC\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
