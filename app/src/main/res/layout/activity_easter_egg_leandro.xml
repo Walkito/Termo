@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E5C62"
+    tools:context=".EasterEggLeandro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="367dp"
+        android:layout_height="541dp"
+        android:layout_marginBottom="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/leandro_sem_camisa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="447dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="364dp"
+        android:fontFamily="@font/mitr_semibold"
+        android:text="ALERTA DE GOSTOSO!!!"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="342dp"
+        android:layout_height="380dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/mitr_semibold"
+        android:text="Este homem está sendo procurado em todo o território brasileiro, por ser o mais gostoso de toda a UNIP e possivelmente de todo o Brasil. Caso o veja, esconda-se, ou você não resistirá à este peitoral definido, abdomem tanquinho que poderia levar qualquer um à loucura. Biceps e triceps totalmente expostos podendo carregar o mais pesado dos pesos."
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

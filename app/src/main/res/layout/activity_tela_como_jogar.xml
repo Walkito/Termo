@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E5C62"
+    tools:context=".TelaComoJogar">
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="102dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="708dp"
+        android:layout_marginEnd="152dp"
+        android:backgroundTint="#D58105"
+        android:text="Voltar"
+        android:textSize="16sp"
+        android:onClick="voltarMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/linha1letra7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/letra_errada"
+        android:fontFamily="@font/mitr_semibold"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="R"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/linha1letra9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/letra_errada"
+        android:fontFamily="@font/mitr_semibold"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="O"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/linha1letra8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/letra_certa"
+        android:fontFamily="@font/mitr_semibold"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="M"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/linha1letra6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/letra_quase"
+        android:fontFamily="@font/mitr_semibold"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="E"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/linha1letra"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/letra_certa"
+        android:fontFamily="@font/mitr_semibold"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="T"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tituloComoJogar"
+        android:layout_width="366dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/mitr_semibold"
+        android:outlineProvider="none"
+        android:text="Como Jogar?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="403dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/mitr_semibold"
+        android:outlineProvider="none"
+        android:text="Descubra a palavra certa em até 6 tentativas. Depois de cada tentativa, as peças mostram o quão perto você está da solução."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="413dp"
+        android:layout_height="556dp"
+        android:layout_marginTop="348dp"
+        android:fontFamily="@font/mitr_semibold"
+        android:outlineProvider="none"
+        android:text="Quando uma letra ficar da cor verde, significa que a mesma existe na palavra e está na posição certa. Quando uma letra fica amarela, significa que ela existe na palavra mas está na poisção errada. Caso uma letra fique marrom escuro, a mesma não existe na palavra."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
